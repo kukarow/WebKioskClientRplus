@@ -8,6 +8,7 @@ DOCKER_COMPOSE_PHP_FPM_EXEC = ${DOCKER_COMPOSE} exec -u www-data php-fpm
 ##################
 # Docker compose
 ##################
+# test for commit
 dc_build:
 	${DOCKER_COMPOSE} build
 
