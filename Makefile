@@ -15,6 +15,9 @@ dc_build:
 dc_start:
 	${DOCKER_COMPOSE} start
 
+dc_restart:
+	${DOCKER_COMPOSE} restart
+
 dc_stop:
 	${DOCKER_COMPOSE} stop
 
